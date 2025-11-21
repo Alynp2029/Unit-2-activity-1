@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ+Guides&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 .flexbox{
     display: flex;
  
@@ -15,24 +17,34 @@
 #box2{
     font-weight:300;
     font-style:italic;
-    font-size:14px;
-    font-family:Impact;
+    font-size:25px;
+  font-weight: 400;
+   font-style: normal;
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 #box1{
     justify-content: space-evenly;
     font-weight:300;
     font-style:italic;
     font-size:14px;
-    font-family:Impact;
+    font-family:"impact";
     border-width: 30px;
     border-style: dotted;
     border-color: black;
     border-radius: 5px;
+    background: white;
 }
   
 button{
     background: pink;
     border-radius: 5px;
+     font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 img{
     border-width: 5px;
@@ -44,18 +56,38 @@ p{
     font-weight: bold;
     color: pink;
     font-size:30px;
+    font-family: "Playwrite NZ Guides", cursive;
 }
-p1{
-    font-weight: bold;
-    
+
 }
 #box3{
     border-style:dotted;
-     border-width: 30px;
+    border-width: 30px;
+    
 }
 .title{
     font-weight: bold;
     color: pink;
     font-size:30px;
+    font-family: "Playwrite NZ Guides", cursive;
+
+}
+
+#box2 p {
+    font-family: "Playwrite NZ Guides", cursive;
+    color:darkred
+}
+strong{
+     color: pink;
+      font-family: "Playwrite NZ Guides", cursive;
+}
+h1{
+     font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+#box4{
+    background: white;
 
 }
